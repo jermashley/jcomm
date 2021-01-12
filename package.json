@@ -1,0 +1,11 @@
+{
+  "name": "jcomm",
+  "version": "0.0.1",
+  "description": "A command-line utility to manage developer testing deployments and trigger transitions in Jira.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremiah Ashley",
+  "license": "ISC"
+}
