@@ -2,10 +2,23 @@
   "name": "jcomm",
   "version": "0.0.1",
   "description": "A command-line utility to manage developer testing deployments and trigger transitions in Jira.",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "jcomm": "./bin/index.js"
+  },
   "author": "Jeremiah Ashley",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0",
+    "commander": "^7.0.0",
+    "configstore": "^5.0.1",
+    "date-fns": "^2.16.1",
+    "inquirer": "^7.3.3",
+    "xml2js": "^0.4.23"
+  }
 }
